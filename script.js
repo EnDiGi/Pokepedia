@@ -56,4 +56,4 @@ document.addEventListener("keydown", function(event){
     }
 })
 
-searchPokemon("charmander")
+searchPokemon("bulbasaur")
