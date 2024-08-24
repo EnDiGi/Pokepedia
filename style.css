@@ -1,0 +1,58 @@
+body {
+    font-family: "arial";
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #c7c7c7;
+}
+
+td {
+    background-color: #fafafa;    
+}
+
+#searchThings{
+    text-align: right; 
+}
+
+.searchClass {
+    font-size: 20px;
+    border-color: beige;
+}
+
+.result{
+    font-size: 25px;
+    text-align: center;
+    width: 20%
+}
+
+.toShow{
+    visibility: hidden;
+}
+
+#dataTable {
+    width: 100%;
+}
+
+#mainTable {
+    width: 20%;
+}
+
+#urlInfo{
+    font-size: 20px;
+    position: absolute;
+}
+
+#searchBar {
+    border-radius: 10px 0 0 10px;    
+    background-color: rgb(238, 229, 216);
+}
+
+#searchBtn {
+    border-radius: 0 10px 10px 0;
+    border-width: 2px;
+}

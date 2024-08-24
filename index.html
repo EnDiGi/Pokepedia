@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Pokepedia</title>
+</head>
+<body>
+    <label id = "urlInfo">Url:</label>
+    <div id = "searchThings"><input id ="searchBar" class = "searchClass" placeholder = "Enter pokemon name"><button id = "searchBtn" class = "searchClass">Search</button></div>
+
+    <br>
+    <table id = "dataTable">
+        <thead>
+            <th class = "toShow result">Data</th>
+        </thead>
+        <table id = "mainTable">
+            <tbody>
+                <tr>
+                    <th id = "pokemonName" class = "result"></th>
+                </tr>
+                <tr>
+                    <td><img scr = "" id = "pokemonSprite" width = 100%></td>
+                </tr>
+                <tr>                
+                    <th class = "result toShow">Types</th>
+                </tr>
+                <tr>
+                    <td id = "pokemonType" class = "result"></td>
+                </tr>
+                <tr>                
+                    <th class = "result toShow">Id</th>
+                </tr>
+                <tr>
+                    <td id = "pokemonId" class = "result"></td>
+                </tr>
+                <tr>                
+                    <th class = "result toShow">Weight</th>
+                </tr>
+                <tr>
+                    <td id = "pokemonWeight" class = "result"></td>
+                </tr>
+                <tr>                
+                    <th class = "result toShow">Height</th>
+                </tr>
+                <tr>
+                    <td id = "pokemonHeight" class = "result"></td>
+                </tr>                
+            </tbody>
+        </table>
+    </table>
+
+
+    <script src = "script.js"></script>
+</body>
+</html>
